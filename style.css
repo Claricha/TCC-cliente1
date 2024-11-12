@@ -142,7 +142,11 @@ font-weight: 100;
 
 
 
-
+video
+{
+  width: 100%;
+  
+}
 
 
 
@@ -172,7 +176,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #23232e;
+  background: #f5f5dc;
   height: 8vh;
 }
 
