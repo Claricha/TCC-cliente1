@@ -71,16 +71,12 @@ body{
     background-position: center;
 }
 h2{
-    font: size 70px;;
-    height: 800px;
-    width: 200px;
+  
+    height: 100px;
+    width: 10px;
     text-align: center;
     padding: 200px;
     font-family:initial
 }
 
-.fab.fa-whatsapp {
-  font-size: 40px;
-  color: green;
-}
 
