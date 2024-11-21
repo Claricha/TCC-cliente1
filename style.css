@@ -8,6 +8,11 @@
 }
 
 
+
+
+
+
+
 * {
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -156,9 +161,10 @@ video
 }
 
 a {
-  color: #b67045;
+  color: #000000;
   text-decoration: none;
   transition: 0.3s;
+  font-family: Apple Chancery, cursive;
 }
 
 a:hover {
@@ -176,7 +182,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
-  background: #f5f5dc;
+  background: #c0a68a;
   height: 8vh;
 }
 
