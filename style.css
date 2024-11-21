@@ -5,14 +5,8 @@
   --color-neutral-10:#171717;
   --color-neutral-30:#a8a29e;
   --color-neutral-40:#f5f5f5;
-}
 
-
-
-
-
-
-
+ }
 * {
   font-family: "Inter", sans-serif;
   margin: 0;
@@ -275,4 +269,38 @@ main {
 
 .fa-instagram:before{
   display: none;
+}
+.texto{
+  max-width: 800px;
+  margin: auto;
+}
+.faixa{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-image: url(begi.avif);
+  background-size: cover;
+  color: #f5f5f5;
+}
+
+.faixa p{
+  font-size: 32px;
+}
+.bnt{
+padding: 10px 8px;
+color: #0e0c0c;
+background: #d3753f;
+border: 1px solid #f5f5f5;
+border-radius: 5px;
+text-align: center;
+user-select: none;
+cursor: pointer;
+transition: background 1s;
+font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+}
+.bnt:hover{
+  background: #af724f;
+  transition: background 1s;
 }
