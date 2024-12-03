@@ -17,6 +17,7 @@
     height: 260px;
     border-radius: 12px;
     box-shadow: 4px 4px 12px #aaaa;
+    display: flex;
   }
   .card img {
     width: 10%;
@@ -26,7 +27,6 @@
   }
   .card div {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 4px;
@@ -34,10 +34,12 @@
   }
   .card h1 {
     font-size: 1.2rem;
+    display: flex;
   }
   .card h2 {
     font-size: .9rem;
     color: #aaaa;
+    
   }
   .card button {
     background-color: #2192FF;
@@ -54,3 +56,5 @@
     background-color: #137de8;
     cursor: pointer;
   }
+  
+  
